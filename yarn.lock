@@ -79,12 +79,12 @@
     "@babel/plugin-transform-react-jsx" "^7.22.5"
     ultrahtml "^1.2.0"
 
-"@astrojs/rss@^2.4.1":
-  version "2.4.3"
-  resolved "https://registry.npmjs.org/@astrojs/rss/-/rss-2.4.3.tgz"
-  integrity sha512-Dc8lxsXiDlnxONVIUuc3ohO1+vV1Hp9fRFdUianOola0S9/xv/6FzIHhkQ62MkaFSlcZm5uIOllRWNKVvuFuoA==
+"@astrojs/rss@^2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@astrojs/rss/-/rss-2.4.4.tgz#b16e75e669c041e1054ffc07821c6a3c29b1820a"
+  integrity sha512-HQFoHyHVoODyeyAFoVPej8OOZowiuXvB5AFIzY4AiPCdwlBz5JGpzW5vPARG/FCqAI9AS3Wi0sU/RZh3Cu8SWQ==
   dependencies:
-    fast-xml-parser "^4.0.8"
+    fast-xml-parser "^4.2.5"
     kleur "^4.1.5"
 
 "@astrojs/sitemap@^1.3.1":
@@ -2545,10 +2545,10 @@ fast-levenshtein@^2.0.6:
   resolved "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz"
   integrity sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==
 
-fast-xml-parser@^4.0.8:
-  version "4.2.6"
-  resolved "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-4.2.6.tgz"
-  integrity sha512-Xo1qV++h/Y3Ng8dphjahnYe+rGHaaNdsYOBWL9Y9GCPKpNKilJtilvWkLcI9f9X2DoKTLsZsGYAls5+JL5jfLA==
+fast-xml-parser@^4.2.5:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-4.5.1.tgz#a7e665ff79b7919100a5202f23984b6150f9b31e"
+  integrity sha512-y655CeyUQ+jj7KBbYMc4FG01V8ZQqjN+gDYGJ50RtfsUB8iG9AmwmwoAgeKLJdmueKKMrH1RJ7yXHTSoczdv5w==
   dependencies:
     strnum "^1.0.5"
 
@@ -5288,7 +5288,7 @@ strip-json-comments@~2.0.1:
 
 strnum@^1.0.5:
   version "1.0.5"
-  resolved "https://registry.npmjs.org/strnum/-/strnum-1.0.5.tgz"
+  resolved "https://registry.yarnpkg.com/strnum/-/strnum-1.0.5.tgz#5c4e829fe15ad4ff0d20c3db5ac97b73c9b072db"
   integrity sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA==
 
 strtok3@^7.0.0:
