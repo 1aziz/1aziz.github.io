@@ -15,7 +15,7 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
-"@astrojs/compiler@^1.0.0", "@astrojs/compiler@^1.0.1", "@astrojs/compiler@^1.4.2", "@astrojs/compiler@^1.8.0":
+"@astrojs/compiler@^1.0.1", "@astrojs/compiler@^1.4.2", "@astrojs/compiler@^1.8.0":
   version "1.8.2"
   resolved "https://registry.npmjs.org/@astrojs/compiler/-/compiler-1.8.2.tgz"
   integrity sha512-o/ObKgtMzl8SlpIdzaxFnt7SATKPxu4oIP/1NL+HDJRzxfJcAkOTAb/ZKMRyULbz4q+1t2/DAebs2Z1QairkZw==
@@ -1157,7 +1157,7 @@
     "@typescript-eslint/typescript-estree" "5.60.0"
     debug "^4.3.4"
 
-"@typescript-eslint/scope-manager@5.60.0", "@typescript-eslint/scope-manager@^5.0.0", "@typescript-eslint/scope-manager@^5.48.2":
+"@typescript-eslint/scope-manager@5.60.0", "@typescript-eslint/scope-manager@^5.0.0":
   version "5.60.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-5.60.0.tgz"
   integrity sha512-hakuzcxPwXi2ihf9WQu1BbRj1e/Pd8ZZwVTG9kfbxAMZstKz8/9OoexIwnmLzShtsdap5U/CoQGRCWlSuPbYxQ==
@@ -1352,20 +1352,6 @@ astral-regex@^2.0.0:
   resolved "https://registry.npmjs.org/astral-regex/-/astral-regex-2.0.0.tgz"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
-astro-eslint-parser@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.npmjs.org/astro-eslint-parser/-/astro-eslint-parser-0.14.0.tgz"
-  integrity sha512-3F8l1h7+5MNxzDg1cSQxEloalG7fj64K6vOERChUVG7RLnAzSoafADnPQlU8DpMM3WRNfRHSC4NwUCORk/aPrA==
-  dependencies:
-    "@astrojs/compiler" "^1.0.0"
-    "@typescript-eslint/scope-manager" "^5.48.2"
-    "@typescript-eslint/types" "^5.25.0"
-    astrojs-compiler-sync "^0.3.0"
-    debug "^4.3.4"
-    eslint-visitor-keys "^3.0.0"
-    espree "^9.0.0"
-    semver "^7.3.8"
-
 astro-eslint-parser@^0.17.0:
   version "0.17.0"
   resolved "https://registry.npmjs.org/astro-eslint-parser/-/astro-eslint-parser-0.17.0.tgz"
@@ -1384,7 +1370,7 @@ astro-eslint-parser@^0.17.0:
     is-glob "^4.0.3"
     semver "^7.3.8"
 
-astro@^2.10.15:
+astro@^2.10.14:
   version "2.10.15"
   resolved "https://registry.yarnpkg.com/astro/-/astro-2.10.15.tgz#953cc02acd9dc51cd7763906f621e9ef645a526a"
   integrity sha512-7jgkCZexxOX541g2kKHGOcDDUVKYc+sGi87GtLOkbWwTsKqEIp9GU0o7DpKe1rhItm9VVEiHz4uxvMh3wGmJdA==
