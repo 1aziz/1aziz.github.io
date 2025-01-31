@@ -1384,7 +1384,7 @@ astro-eslint-parser@^0.17.0:
     is-glob "^4.0.3"
     semver "^7.3.8"
 
-astro@^2.10.15:
+astro@^2.10.14:
   version "2.10.15"
   resolved "https://registry.yarnpkg.com/astro/-/astro-2.10.15.tgz#953cc02acd9dc51cd7763906f621e9ef645a526a"
   integrity sha512-7jgkCZexxOX541g2kKHGOcDDUVKYc+sGi87GtLOkbWwTsKqEIp9GU0o7DpKe1rhItm9VVEiHz4uxvMh3wGmJdA==
@@ -1975,6 +1975,11 @@ css-color-keywords@^1.0.0:
   resolved "https://registry.npmjs.org/css-color-keywords/-/css-color-keywords-1.0.0.tgz"
   integrity sha512-FyyrDHZKEjXDpNJYvVsV960FiqQyXc/LlYmsxl2BcdMb2WPx0OGRVgTg55rPSyLSNMqP52R9r8geSp7apN3Ofg==
 
+css-gradient-parser@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/css-gradient-parser/-/css-gradient-parser-0.0.16.tgz#5735da0822aef39da9b1960b314792ab542d9bb5"
+  integrity sha512-3O5QdqgFRUbXvK1x5INf1YkBz1UKSWqrd63vWsum8MNHDBYD5urm3QtxZbKU259OrEXNM26lP/MPY3d1IGkBgA==
+
 css-select@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npmjs.org/css-select/-/css-select-5.1.0.tgz"
@@ -2357,6 +2362,11 @@ escalade@^3.1.1, escalade@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.2.0.tgz#011a3f69856ba189dffa7dc8fcce99d2a87903e5"
   integrity sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==
+
+escape-html@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
+  integrity sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"
@@ -5081,16 +5091,18 @@ sass-formatter@^0.7.5:
   dependencies:
     suf-log "^2.5.3"
 
-satori@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.npmjs.org/satori/-/satori-0.8.1.tgz"
-  integrity sha512-XboyousIz6IThWkKtPu3EyPAYV9ALH2pyC6bXeWKqYt7zAy11Qv40nro9Oozn+DSdaloSzGxnqy3Z7iFOHrX2Q==
+satori@^0.12.0:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/satori/-/satori-0.12.1.tgz#9ad0c8b7d2f76dea20cdae91da9fdda95b713e65"
+  integrity sha512-0SbjchvDrDbeXeQgxWVtSWxww7qcFgk3DtSE2/blHOSlLsSHwIqO2fCrtVa/EudJ7Eqno8A33QNx56rUyGbLuw==
   dependencies:
     "@shuding/opentype.js" "1.4.0-beta.0"
     css-background-parser "^0.1.0"
     css-box-shadow "1.0.0-3"
+    css-gradient-parser "^0.0.16"
     css-to-react-native "^3.0.0"
     emoji-regex "^10.2.1"
+    escape-html "^1.0.3"
     linebreak "^1.1.0"
     parse-css-color "^0.2.1"
     postcss-value-parser "^4.2.0"
