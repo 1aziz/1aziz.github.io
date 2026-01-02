@@ -1,3 +1,3 @@
-# azizified.com
+# blog.azizified.com
 
 Aziz's personal website.
